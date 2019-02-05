@@ -43,7 +43,7 @@ print(client.suites())
 suite = client.suites()['report_suite_id']
 print(suite)
 print(suite.metrics())
-print(suite.elements())
+print(suite.dimensions())
 print(suite.segments())
 ```
 
